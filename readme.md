@@ -22,7 +22,7 @@ python -c "import pycorrector;print(pycorrector.correct('我是浙江打学的�
 ImportError: pycorrector dependencies are not fully installed, they are required for statistical language model.Please use "pip install kenlm" to install it.if you are Win, Please install kenlm in cgwin.
 ```
 
-使用一下代码安装kenlm,安装后重新测试环境
+使用以下代码安装kenlm,安装后重新测试环境
 
 ```
 pip install https://github.com/kpu/kenlm/archive/master.zip
